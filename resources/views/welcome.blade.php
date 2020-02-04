@@ -197,8 +197,12 @@
                                 <div class="row">
                                     <div class="col-md-10 col-md-offset-1">
                                         <div class="content">
-                                            <h1 data-animation="animated slideInDown">Welcome to <span>Pakistan</span></h1>
-                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="{{route('event')}}">Event</a>
+                                            <h1 data-animation="animated slideInDown">Pakistan <span>Fastest Growing Economies</span></h1>
+                                            <p data-animation="animated slideInUp" class="">
+                                              Ranked as most attractive market for investors
+                                              Increasing FDI inflows by 37% since the launch of Invest in Pakistan
+                                            </p>
+                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="{{route('event')}}">Learn About Our Upcoming Event</a>
                                         </div>
                                     </div>
                                 </div>
@@ -214,8 +218,12 @@
                                 <div class="row">
                                     <div class="col-md-10 col-md-offset-1">
                                         <div class="content">
-                                            <h1 data-animation="animated slideInDown">Welcome to <span>Pakistan</span></h1>
-                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
+                                            <h1 data-animation="animated slideInDown">Massive <span>Domestic Market</span></h1>
+                                            <p data-animation="animated slideInUp" class="">
+                                              Rising affluence and 129 million urban mass consumers
+                                              Private consumptions expected to be 4X by 2030
+                                            </p>
+                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="{{route('event')}}">Learn About Our Upcoming Event</a>
                                         </div>
                                     </div>
                                 </div>
@@ -231,8 +239,12 @@
                                 <div class="row">
                                     <div class="col-md-10 col-md-offset-1">
                                         <div class="content">
-                                            <h1 data-animation="animated slideInDown">Welcome to <span>Pakistan</span></h1>
-                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
+                                            <h1 data-animation="animated slideInDown">Economic <span>Reach And Influence</span></h1>
+                                            <p data-animation="animated slideInUp" class="">
+                                              Center of the global maritime trade, futures largest manufacturing hub by 2030
+                                              CPEC, INSTC and other projects creating greater economic influence across the Asia Pacific
+                                            </p>
+                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="{{route('event')}}">Learn About Our Upcoming Event</a>
                                         </div>
                                     </div>
                                 </div>
@@ -249,7 +261,7 @@
                                     <div class="col-md-10 col-md-offset-1">
                                         <div class="content">
                                             <h1 data-animation="animated slideInDown">Welcome to <span>Pakistan</span></h1>
-                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
+                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="{{route('event')}}">Learn About Our Upcoming Event</a>
                                         </div>
                                     </div>
                                 </div>
@@ -266,7 +278,7 @@
                                     <div class="col-md-10 col-md-offset-1">
                                         <div class="content">
                                             <h1 data-animation="animated slideInDown">Welcome to <span>Pakistan</span></h1>
-                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="#">Learn more</a>
+                                            <a data-animation="animated slideInUp" class="btn btn-theme effect btn-md" href="{{route('event')}}">Learn About Our Upcoming Event</a>
                                         </div>
                                     </div>
                                 </div>
