@@ -87,7 +87,12 @@
     </style>
 
 </head>
-
+<style media="screen">
+  .footer-bottom{
+    padding: 0px !important;
+    border-top:1px solid #6f6f6f !important;
+  }
+</style>
 <body>
 
     <!-- Preloader Start -->
@@ -931,32 +936,24 @@
                  </div>
              </div>
          </div>
-        <!-- Start Footer Bottom -->
-        <div class="footer-bottom bg-dark text-light">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p>&copy; Copyright 2020. All Rights Reserved</p>
-                    </div>
-                    <div class="col-md-6 text-right link">
-                        <ul>
-                            <li>
-                                <a href="#">Terms of user</a>
-                            </li>
-                            <li>
-                                <a href="#">License</a>
-                            </li>
-                            <li>
-                                <a href="#">Support</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Footer Bottom -->
-    </footer>
-    <!-- End Footer -->
+         <!-- Start Footer
+         ============================================= -->
+         <footer class="bg-light">
+
+             <!-- Start Footer Bottom -->
+             <div class="footer-bottom bg-dark text-light">
+                 <div class="container">
+                     <div class="row">
+                         <div class="col-md-12 text-center">
+                             <p>Designed and Developed By  <a href="https://al-burraq.com">AlBurraqTech LLC</a></p>
+                         </div>
+
+                     </div>
+                 </div>
+             </div>
+             <!-- End Footer Bottom -->
+         </footer>
+         <!-- End Footer -->
 
     <!-- jQuery Frameworks
     ============================================= -->

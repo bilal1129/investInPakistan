@@ -39,7 +39,12 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800" rel="stylesheet">
 
 </head>
-
+<style media="screen">
+  .footer-bottom{
+    padding: 0px !important;
+    border-top:1px solid #6f6f6f !important;
+  }
+</style>
 <body>
 
     <!-- Preloader Start -->
@@ -74,25 +79,13 @@
                         <a class="smooth-menu" href="{{ route('root') }}">Home</a>
                     </li>
                     <li>
-                        <a class="smooth-menu" href="#about">About</a>
+                        <a class="smooth-menu" href="#agenda">Agenda</a>
                     </li>
                     <li>
-                        <a class="smooth-menu" href="#services">Services</a>
+                        <a class="smooth-menu" href="#speakers">Speakers</a>
                     </li>
                     <li>
-                        <a class="smooth-menu" href="#skill">Skill</a>
-                    </li>
-                    <li>
-                        <a class="smooth-menu" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="smooth-menu" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="smooth-menu" href="#pricing">Pricing</a>
-                    </li>
-                    <li>
-                        <a class="smooth-menu" href="#blog">blog</a>
+                        <a class="smooth-menu" href="#partners">Partners</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -182,47 +175,13 @@
         </div>
     </div>
     <!-- End Banner -->
-    {{-- start work place --}}
-    <div class="work-place-area" style="margin-top:100px;">
-        <div class="container-full">
-            <div class="row">
-                <div class="work-place-items workplace-carousel owl-carousel owl-theme">
-                    <!-- Single Item -->
-                    <div class="item">
-                      <div class="col-md-6 info">
-                            <h4>Work Place</h4>
-                            <h2>Working at a Fun Loving Cosy Environment</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi possimus et, ratione laborum magni sint amet, modi laboriosam expedita, quas consectetur maxime aspernatur vero aperiam ab nulla obcaecati illo ipsam!
-                            </p>
-                            <ul>
-                                <li>Imagine you chiefly few end ferrars compass</li>
-                                <li>
-                                    shutters appetite yourself diverted. Our next drew much you with rank. Tore many held age hold rose than our. She literature sentiments any contrasted. Set aware joy sense young now tears china shy
-                                </li>
-                                <li>Instrument cultivated alteration any favourable expression</li>
-                                <li>An from mean on with when sing pain. principles devonshire</li>
-                            </ul>
-                            <a href="#" class="btn btn-theme border btn-sm">Know more</a>
-                        </div>
-                        <div class="col-md-6 thumb bg-cover" style="background-image: url('assets/img/demo1.jpg');">
-                            <a href="https://www.youtube.com/watch?v=owhuBrGIOsE" class="popup-youtube light video-play-button item-center">
-                                <i class="fa fa-play"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- End Single Item -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End  Work Place Area -->
 
-    <div id="skill" class="skill-area default-padding">
+
+    <div id="agenda" class="skill-area default-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 info">
-                    <h2>Agenda </h2>
+                    <h2>About </h2>
                     <p>
                         Offering confined entrance no. Nay rapturous him see something residence. Highly talked do so vulgar. Her use behaved spirits and natural attempt say feeling. Exquisite mr incommode immediate he something ourselves it of. Law conduct yet chiefly beloved examine village proceed.
                     </p>
@@ -231,25 +190,61 @@
                 <div class="col-md-6 tab-items">
                     <!-- Tab Nav -->
                     <ul class="nav nav-pills">
-                        <li class="active">
-                            <a data-toggle="tab" href="#tab1" aria-expanded="true">
-                                <span>Day 1</span>
+                        <li class="active" style="display:none">
+                            <a data-toggle="tab" href="#tab1111" aria-expanded="true">
+                                <span>Common Agenda</span>
                             </a>
                         </li>
-                        {{-- <li>
+                        <li class="active">
+                            <a data-toggle="tab" href="#tab1" aria-expanded="true">
+                                <span>Common Agenda</span>
+                            </a>
+                        </li>
+                        <li>
                             <a data-toggle="tab" href="#tab2" aria-expanded="false">
-                                <span>Financial Profit</span>
+                                <span>Track 1</span>
                             </a>
                         </li>
                         <li>
                             <a data-toggle="tab" href="#tab3" aria-expanded="false">
-                                <span>Best Care</span>
+                                <span>Track 2</span>
                             </a>
-                        </li> --}}
+                        </li>
                     </ul>
                     <!-- End Tab Nav -->
                     <!-- Start Tab Content -->
                     <div class="tab-content tab-content-info">
+                        <div id="tab1111" class="tab-pane fade active in" style="display:none">
+                            <div class="info title">
+                                {{-- <h3>Personal Data & Analysis</h3> --}}
+                                <div class="acd-items acd-arrow">
+                        <div class="panel-group symb" id="accordion">
+
+                            <!-- Single Item -->
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac133">
+                                          8:00-8:45
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="ac133" class="panel-collapse collapse in">
+                                    <div class="panel-body">
+                                          <p>
+                                            Breakfast/registration
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Item -->
+
+
+
+                        </div>
+                    </div>
+                            </div>
+                        </div>
                         <div id="tab1" class="tab-pane fade active in">
                             <div class="info title">
                                 {{-- <h3>Personal Data & Analysis</h3> --}}
@@ -341,89 +336,19 @@
                                 </div>
                             </div>
                             <!-- Single Item -->
-                            <!-- Single Item -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac6">
-                                          10:30- 10:45
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="ac6" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <p> break </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Item -->
-                            <!-- Single Item -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac7">
-                                          10:45 - 12:00
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="ac7" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <p>
-                                          Track 1: software, comp graphics, investment - opportunities in Punjab
 
-                                          Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - opportunities in Punjab
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Item -->
                             <!-- Single Item -->
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac8">
-                                          12:00 - 01:00
+                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac1011">
+                                          10:30-3:45
                                         </a>
                                     </h4>
                                 </div>
-                                <div id="ac8" class="panel-collapse collapse">
+                                <div id="ac1011" class="panel-collapse collapse">
                                     <div class="panel-body">
-                                        <p> Lunch </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Item -->
-                            <!-- Single Item -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac9">
-                                          1:00 - 3:30
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="ac9" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <p>Track 1: software, comp graphics, investment  - success stories from Punjab
-
-Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - success stories from Punjab
-</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Single Item -->
-                            <!-- Single Item -->
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                                        <a data-toggle="collapse" data-parent="#accordion" href="#ac10">
-                                          3:30-3:45
-                                        </a>
-                                    </h4>
-                                </div>
-                                <div id="ac10" class="panel-collapse collapse">
-                                    <div class="panel-body">
-                                        <p> tea break </p>
+                                        <p> See Track 1 and Track 2 </p>
                                     </div>
                                 </div>
                             </div>
@@ -481,7 +406,7 @@ Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - succe
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#ac14">
-                                          5:45 - 6:00 closing
+                                          5:45 - 6:00
 
                                         </a>
                                     </h4>
@@ -515,27 +440,163 @@ Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - succe
                             </div>
                         </div>
                         <div id="tab2" class="tab-pane fade">
-                            <div class="info title">
-                                <h3>Financial Profil With Us</h3>
-                                <p>
-                                    Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Way mrs end gave tall walk fact bed.
+                              <div class="info title">
+                                  {{-- <h3>Personal Data & Analysis</h3> --}}
+                                  <div class="acd-items acd-arrow">
+                          <div class="panel-group symb" id="accordion">
+
+
+                              <!-- Single Item -->
+                              <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                      <h4 class="panel-title">
+                                          <a data-toggle="collapse" data-parent="#accordion" href="#ac7">
+                                            10:45 - 12:00
+                                          </a>
+                                      </h4>
+                                  </div>
+                                  <div id="ac7" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                          <p>
+                                            Software, comp graphics, investment - opportunities in Punjab                                          </p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- Single Item -->
+                              <!-- Single Item -->
+                              <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                      <h4 class="panel-title">
+                                          <a data-toggle="collapse" data-parent="#accordion" href="#ac8">
+                                            12:00 - 01:00
+                                          </a>
+                                      </h4>
+                                  </div>
+                                  <div id="ac8" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                          <p> Lunch </p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- Single Item -->
+                              <!-- Single Item -->
+                              <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                      <h4 class="panel-title">
+                                          <a data-toggle="collapse" data-parent="#accordion" href="#ac9">
+                                            1:00 - 3:30
+                                          </a>
+                                      </h4>
+                                  </div>
+                                  <div id="ac9" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                          <p>Software, comp graphics, investment  - success stories from Punjab</p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- Single Item -->
+                              <!-- Single Item -->
+                              <div class="panel panel-default">
+                                  <div class="panel-heading">
+                                      <h4 class="panel-title">
+                                          <a data-toggle="collapse" data-parent="#accordion" href="#ac10">
+                                            3:30-3:45
+                                          </a>
+                                      </h4>
+                                  </div>
+                                  <div id="ac10" class="panel-collapse collapse">
+                                      <div class="panel-body">
+                                          <p> tea break </p>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- Single Item -->
+
+
+                          </div>
+                      </div>
+                              </div>
+                          </div>
+                          <div id="tab3" class="tab-pane fade">
+                                <div class="info title">
+                                    {{-- <h3>Personal Data & Analysis</h3> --}}
+                                    <div class="acd-items acd-arrow">
+                            <div class="panel-group symb" id="accordion">
+
+                                <!-- Single Item -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#ac71">
+                                              10:45 - 12:00
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="ac71" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p>
+
+                                              Smart agriculture, industrial automation/IOT, Microelectronics - opportunities in Punjab
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Item -->
+                                <!-- Single Item -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#ac81">
+                                              12:00 - 01:00
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="ac81" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p> Lunch </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Item -->
+                                <!-- Single Item -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#ac91">
+                                              1:00 - 3:30
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="ac91" class="panel-collapse collapse">
+                                        <div class="panel-body">
+
+                                Smart agriculture, industrial automation/IOT, Microelectronics - success stories from Punjab
                                 </p>
-                                <p>
-                                    Placing assured be if removed it besides on. Far shed each high read are men over day. Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had now those ought set often which. Or snug dull he show more true wish. No at many deny away miss evil. On in so indeed spirit an mother. Amounted old strictly but marianne admitted. People former is remove remain as.
-                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Item -->
+
+                                <!-- Single Item -->
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#ac101">
+                                              3:30-3:45
+                                            </a>
+                                        </h4>
+                                    </div>
+                                    <div id="ac101" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                            <p> tea break </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Single Item -->
                             </div>
                         </div>
-                        <div id="tab3" class="tab-pane fade">
-                            <div class="info title">
-                                <h3>Providing best care</h3>
-                                <p>
-                                    Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting expression. Way mrs end gave tall walk fact bed.
-                                </p>
-                                <p>
-                                    Placing assured be if removed it besides on. Far shed each high read are men over day. Afraid we praise lively he suffer family estate is. Ample order up in of in ready. Timed blind had now those ought set often which. Or snug dull he show more true wish. No at many deny away miss evil. On in so indeed spirit an mother. Amounted old strictly but marianne admitted. People former is remove remain as.
-                                </p>
+                                </div>
                             </div>
-                        </div>
                     </div>
                     <!-- End Tab Content -->
                 </div>
@@ -549,7 +610,7 @@ Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - succe
 
     <!-- Start Team Area
     ============================================= -->
-    <div id="team" class="team-area carousel-shadow bg-gray default-padding">
+    <div id="speakers" class="team-area carousel-shadow bg-gray default-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -567,150 +628,109 @@ Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - succe
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <img src="assets/img/speakers/andleeb-ahmed.jpg" alt="Thumb">
+
                             </div>
                             <div class="info">
-                                <h4>Amir Bubhan</h4>
-                                <span>Data Scientist</span>
-                                <p>
-                                    Jennings dashwood to insisted year of trifling quitting marriage bachelor in. On as conviction appearance
-                                </p>
+                                <h4>Andleeb Ahmed</h4>
+                                <span>President Open SV</span>
+
                             </div>
                         </div>
                         <!-- End Single Item -->
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <img src="assets/img/speakers/monis-rehmn.jpg" alt="Thumb">
+
                             </div>
                             <div class="info">
-                                <h4>Natasha</h4>
-                                <span>Ui/Ux Designer</span>
-                                <p>
-                                    Aennings dashwood to insisted year of trifling quitting marriage bachelor in. On as conviction appearance
-                                </p>
+                                <h4>Monis Rahman</h4>
+                                <span>CEO Rozee.pk</span>
                             </div>
                         </div>
                         <!-- End Single Item -->
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <img src="assets/img/speakers/almas-haider.jpg" alt="Thumb">
+
                             </div>
                             <div class="info">
-                                <h4>Jessica Jones</h4>
-                                <span>Sales & Marketing</span>
-                                <p>
-                                    Mennings dashwood to insisted year of trifling quitting marriage bachelor in. On as conviction appearance
-                                </p>
+                                <h4>Almas Haider</h4>
+                                <span>Board Chairman SPEL</span>
                             </div>
                         </div>
                         <!-- End Single Item -->
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <img src="assets/img/speakers/amer-haider.jpg" alt="Thumb">
+
                             </div>
                             <div class="info">
-                                <h4>Mark Henri</h4>
-                                <span>Senior Developer</span>
-                                <p>
-                                    Mennings dashwood to insisted year of trifling quitting marriage bachelor in. On as conviction appearance
-                                </p>
+                                <h4>Amer Haider</h4>
+                                <span>Technology Entrepreneur</span>
                             </div>
                         </div>
                         <!-- End Single Item -->
                         <!-- Single Item -->
                         <div class="item">
                             <div class="thumb">
-                                <img src="assets/img/800x600.png" alt="Thumb">
-                                <div class="social">
-                                    <ul>
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <img src="assets/img/speakers/fawad.jpg" alt="Thumb">
+
                             </div>
                             <div class="info">
-                                <h4>Jessica Jones</h4>
-                                <span>Sales & Marketing</span>
-                                <p>
-                                    Mennings dashwood to insisted year of trifling quitting marriage bachelor in. On as conviction appearance
-                                </p>
+                                <h4>Fawad Chahudary</h4>
+                                <span>Federal Minister</span>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/speakers/naveed-sherwaani.jpg" alt="Thumb">
+
+                            </div>
+                            <div class="info">
+                                <h4>Naveed Sherwani</h4>
+                                <span>CEO SIFIVI</span>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/speakers/sarwar.jpg" alt="Thumb">
+
+                            </div>
+                            <div class="info">
+                                <h4>Mohammad Sarwar</h4>
+                                <span>Governer of Punjab</span>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/speakers/yasir--hyuman.jpg" alt="Thumb">
+
+                            </div>
+                            <div class="info">
+                                <h4>Yasir Humayun</h4>
+                                <span>Provincial Minister</span>
+                            </div>
+                        </div>
+                        <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="item">
+                            <div class="thumb">
+                                <img src="assets/img/speakers/yasmin-rashid.jpg" alt="Thumb">
+
+                            </div>
+                            <div class="info">
+                                <h4>Yasmin Rashid</h4>
+                                <span>Provincial Minister</span>
                             </div>
                         </div>
                         <!-- End Single Item -->
@@ -723,7 +743,7 @@ Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - succe
 
 <!-- Start Clients Area
     ============================================= -->
-    <div class="clients-area bg-dark default-padding">
+    <div id="partners" class="clients-area bg-dark default-padding">
         <div class="container">
             <div class="row">
                 <div class="col-md-5 left-info text-light">
@@ -738,7 +758,7 @@ Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - succe
                             <a href="https://opensv.org/"><img src="{{asset('assets/img/openlogo1.png')}}" alt="Clients"></a>
                         </div>
                         <div class="single-item">
-                            <a href="https://www.punjab.gov.pk/"><img src="{{asset('assets/img/punjabgovt.png')}}" alt="Clients"></a>
+                            <a href="https://www.punjab.gov.pk/"><img height="100px" src="{{asset('assets/img/punjabLogo.png')}}" alt="Clients"></a>
                         </div>
 
                     </div>
@@ -757,22 +777,10 @@ Track 2:  smart agriculture, industrial automation/IOT, Microelectronics - succe
         <div class="footer-bottom bg-dark text-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6">
-                        <p>&copy; Copyright 2019. All Rights Reserved by <a href="#">validthemes</a></p>
+                    <div class="col-md-12 text-center">
+                        <p>Designed and Developed By  <a href="https://al-burraq.com">AlBurraqTech LLC</a></p>
                     </div>
-                    <div class="col-md-6 text-right link">
-                        <ul>
-                            <li>
-                                <a href="#">Terms of user</a>
-                            </li>
-                            <li>
-                                <a href="#">License</a>
-                            </li>
-                            <li>
-                                <a href="#">Support</a>
-                            </li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
         </div>
